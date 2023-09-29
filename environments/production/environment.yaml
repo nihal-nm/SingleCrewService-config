@@ -39,15 +39,15 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
   # cloudwatch for metrics
-  #metrics:
-  #  enabled: true
-  #  cloudwatch:
-  #    arn: arn:aws:logs:region:account-id:destination:destination_name
-  #    metrics:
-  #      - a
-  #      - b
-  #      - c
-  version: "728ac1ca-ce17-4863-9adb-18712a161129"
+  metrics:
+    enabled: true
+    cloudwatch:
+      arn: arn:aws:logs:region:account-id:destination:destination_name
+      metrics:
+        - a
+        - b
+        - c
+  version: "9aec6a77-d029-4e29-89fa-4d9e68445614"
 # probes
 # dynamic scaling
 # scaling to 0
