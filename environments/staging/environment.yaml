@@ -25,8 +25,6 @@ app:
       value: "-DenvironmentType=stage"
     - name: MY_ENV
       value: "1"
-    - name: mongo.hostname
-      value: "avl-1.fyre.ibm.com"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
@@ -38,8 +36,12 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-    - name: mongohost
-      value: "ec2-100-26-185-111.compute-1.amazonaws.com"
+    - name: mongo.hostname
+      value: "ec2-34-204-61-161.compute-1.amazonaws.com "
+    - name: mongo.port
+      value: "27017"
+    - name: mongo.dbname
+      value: "crewdb"
   # cloudwatch for metrics
   metrics:
     enabled: false
