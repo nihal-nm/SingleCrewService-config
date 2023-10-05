@@ -36,12 +36,12 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-    #- name: mongo.hostname
-    #  value: "ec2-100-26-185-111.compute-1.amazonaws.com"
-    #- name: mongo.port
-    #  value: "27017"
-    #- name: mongo.dbname
-    #  value: "crewdb"
+      #- name: mongo.hostname
+      #  value: "ec2-100-26-185-111.compute-1.amazonaws.com"
+      #- name: mongo.port
+      #  value: "27017"
+      #- name: mongo.dbname
+      #  value: "crewdb"
   # cloudwatch for metrics
   metrics:
     enabled: false
@@ -51,7 +51,7 @@ app:
         - a
         - b
         - c
-  version: "c09e4a46-9363-4683-bc98-916dadf6f5f1"
+  version: "8e406e3d-0786-48c9-a4f0-ee73da06fae4"
 # probes
 # dynamic scaling
 # scaling to 0
