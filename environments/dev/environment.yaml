@@ -23,7 +23,7 @@ app:
   env:
     - name: JVM_ARGS # q: make that as a top level 'jvmArguments' property?
       value: "-DenvironmentType=stage"
-    - name: crewTestUrl
+    - name: -DcrewTestUrl
       value: "https://app-20230825-1306-1071-8008-64c2692d67a0.us-east-1.c1.appflow.dev.ibmappdomain.cloud"
     - name: MY_ENV
       value: "1"
