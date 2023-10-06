@@ -26,6 +26,8 @@ app:
       #value: "-DenvironmentType=stage"
     - name: -DcrewTestUrl
       value: "https://app-20230825-1306-1071-8008-64c2692d67a0.us-east-1.c1.appflow.dev.ibmappdomain.cloud"
+    - name: crewTestUrl
+      value: "https://app-20230825-1306-1071-8008-64c2692d67a0.us-east-1.c1.appflow.dev.ibmappdomain.cloud"
     - name: MY_ENV
       value: "1"
   # List of variables that can be referenced in server.xml
@@ -41,6 +43,8 @@ app:
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
     - name: mongo.hostname
       value: "ec2-100-26-185-111.compute-1.amazonaws.com"
+    - name: crewTestUrl
+      value: "https://app-20230825-1306-1071-8008-64c2692d67a0.us-east-1.c1.appflow.dev.ibmappdomain.cloud"
       #- name: mongo.port
       #  value: "27017"
       #- name: mongo.dbname
