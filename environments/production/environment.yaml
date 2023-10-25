@@ -41,14 +41,14 @@ app:
     - name: mongo.hostname
       value: "ec2-34-204-61-161.compute-1.amazonaws.com"
   # cloudwatch for metrics
-  metrics:
-    enabled: false
-    cloudwatch:
-      arn: arn:aws:logs:region:account-id:destination:destination_name
-      metrics:
-        - a
-        - b
-        - c
+  #metrics:
+  #  enabled: false
+  #  cloudwatch:
+  #    arn: arn:aws:logs:region:account-id:destination:destination_name
+  #    metrics:
+  #      - a
+  #      - b
+  #      - c
   version: "c1cb491d-db6a-4097-a5cd-072a77ff7e62"
 # probes
 # dynamic scaling
