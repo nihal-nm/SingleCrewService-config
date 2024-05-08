@@ -37,7 +37,7 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
     - name: mongo.hostname
-      value: "ec2-34-204-61-161.compute-1.amazonaws.com"
+      value: "ec2-44-203-130-195.compute-1.amazonaws.com"
       #- name: mongo.port
       #  value: "27017"
       #- name: mongo.dbname
